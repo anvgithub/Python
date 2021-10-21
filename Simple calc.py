@@ -8,11 +8,11 @@ if opr == "+":
     print("Result: " + str(c))
 elif opr == "-":
     c = a - b 
-    print("Result: " + c) 
+    print("Result: " + str(c))
 elif opr == "*":
     c = a * b 
-    print("Result: " + c)
+    print("Result: " + str(c))
 elif opr == "/":
     c = a / b 
-    print("Result: " + c)        
+    print("Result: " + str(c))       
 
