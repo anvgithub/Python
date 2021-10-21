@@ -2,8 +2,8 @@
 #age = input("Enter you age:")                             
 #print("Hello, " + name + " !")                            
 #print("You is " + age + " years old !!!")                 
-                                                           
-a = -5                                                     
+import math                                                          
+a = -5.77                                                     
 b = 10                                                     
 c = b - a                                                  
-print(c)                                                   
+print( math.floor(c) )                                                   
